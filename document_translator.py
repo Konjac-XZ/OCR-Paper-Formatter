@@ -46,7 +46,7 @@ class DocumentTranslator:
                     self.system_prompt,
                     self.context_manager,
                     chunk,
-                    max_tokens=20000
+                    max_tokens=10000
                 )
                     
                 # Add response to context for next iteration

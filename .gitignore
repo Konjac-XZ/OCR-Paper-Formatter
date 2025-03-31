@@ -162,6 +162,7 @@ cython_debug/
 .vscode
 
 run.sh
+run.ps1
 *.md
 !README.md
 !prompts*.md
