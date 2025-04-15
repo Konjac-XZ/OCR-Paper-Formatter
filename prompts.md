@@ -1,4 +1,3 @@
-For good output, you may be rewarded $200. For poor quality output, you may be punished. Your task is:
 
 <instruction> 
 As an editor, read user-submitted text, identify and **CORRECT** garbled codes and errors.

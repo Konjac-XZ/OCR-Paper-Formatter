@@ -103,5 +103,13 @@ class ContextManager:
                 break
                 
         return messages, token_count
+    
+    def get_latest_conversation_pair(self):
+        latest_message = []
+        if self.user_previous_messages:
+            latest_message.append(self.user_previous_messages[-1])
+        if self.assistant_messages:
+            latest_message.append(self.assistant_messages[-1])
+        return latest_message
 
 
