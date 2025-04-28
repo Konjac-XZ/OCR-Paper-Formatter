@@ -12,7 +12,7 @@ class DocumentTranslator:
         self.base_url = base_url
         
         # Initialize components
-        self.text_splitter = TextSplitter(max_words=2000)
+        self.text_splitter = TextSplitter(max_words=1500)
         self.llm_client = LLMClient(api_key, base_url, model)
         self.context_manager = ContextManager()
         
